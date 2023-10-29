@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+<head>
+    <title>Router-web</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="user-profile">
+            <img src="test.jpeg" alt="User Profile Image">
+        </div>
+        <h1>Route Master</h1>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#balance">Check Balance</a></li>
+                <li><a href="#journeys">Past Journeys</a></li>
+                <li><a href="#recharge">Recharge Card</a></li>
+                <li><a href="#lock">Lock Card</a></li>
+                <li><a href="#add-members">Add Members</a></li>
+                <li><a href="feedback.html">Provide Feedback</a></li>
+                <li><a href="#profile">My Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="balance">
+        <h2>Your Card Balance</h2>
+        <div class="balance-info">
+            <p>Card Number: XXXX-XXXX-XXXX-XX69</p>
+            <p class="balance-amount">Current Balance: ₹100.00</p>
+        </div>
+    </section>
+
+    <section id="journeys">
+        <h2>Past Journeys</h2>
+        <ul class="journey-list">
+            <li>Journey 1: Date, Time, Start - End, Fare, Vehicle Number</li>
+            <li>Journey 2: Date, Time, Start - End, Fare, Vehicle Number</li>
+            <li>Journey 3: Date, Time, Start - End, Fare, Vehicle Number</li>
+        </ul>
+    </section>
+
+    <section id="recharge">
+        <h2>Recharge Your Card</h2>
+        <form>
+            <label for="amount">Recharge Amount: ₹</label>
+            <input type="text" id="amount" name="amount">
+            <button type="submit">Recharge</button>
+        </form>
+    </section>
+
+
+    <div id="add-members">
+        <h2>Add Members</h2>
+        <div>
+            <label for="num-members">Select the number of members:</label>
+            <select id="num-members" onchange="updateMemberCount(this.value)">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <input type="text" id="member-count" readonly>
+        <button onclick="addMembers()">Add</button>
+    </div>
+
+
+    <section id="profile">
+        <h2>My Profile</h2>
+    </section>
+
+    <section id="lock">
+        <h2>Lock Your Card</h2>
+        <button class="lock-button">Lock Card</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Route Masters.</p>
+    </footer>
+
+    <script src="worker.js"></script>
+</body>
+</html>

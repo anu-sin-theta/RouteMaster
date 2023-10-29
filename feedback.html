@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Router-web</title>
+    <link rel="stylesheet" type="text/css" href="feed.css">
+</head>
+<body>
+    <h1>Feedback</h1>
+    <form id="feedback-form">
+        <div>
+            <label for="experience">1. Experience of using the self-service portal:</label>
+            <select id="experience" name="experience">
+                <option value="Great">Great</option>
+                <option value="Fine">Fine</option>
+                <option value="Need Improvements">Need Improvements</option>
+            </select>
+        </div>
+        <div>
+            <label for="recharge-time">2. Recharge time:</label>
+            <select id="recharge-time" name="recharge-time">
+                <option value="Fast">Fast</option>
+                <option value="Just works">Just works</option>
+                <option value="Slow">Slow</option>
+            </select>
+        </div>
+        <div>
+            <label for="website-functions">3. Website functions:</label>
+            <select id="website-functions" name="website-functions">
+                <option value="Enough">Enough</option>
+                <option value="More functions needed">More functions needed</option>
+            </select>
+        </div>
+        <div>
+            <label for="overall-experience">4. Overall Experience:</label>
+            <select id="overall-experience" name="overall-experience">
+                <option value="Fully satisfied">Fully satisfied</option>
+                <option value="Fine">Fine</option>
+                <option value="Not satisfy">Not satisfy</option>
+            </select>
+        </div>
+        <div>
+            <label for="my-voice">5. My voice:</label>
+            <textarea id="my-voice" name="my-voice" rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        document.getElementById('feedback-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            const experience = document.getElementById('experience').value;
+            const rechargeTime = document.getElementById('recharge-time').value;
+            const websiteFunctions = document.getElementById('website-functions').value;
+            const overallExperience = document.getElementById('overall-experience').value;
+            const myVoice = document.getElementById('my-voice').value;
+            console.log(experience, rechargeTime, websiteFunctions, overallExperience, myVoice);
+
+            const submitButton = document.querySelector('button[type="submit"]');
+            submitButton.disabled = true;
+
+            alert('Dhanyawaad, your feedback is submitted, aapki yatra shubh ho!');
+
+            document.getElementById('feedback-form').reset();
+
+            setTimeout(function () {
+                submitButton.disabled = false;
+            }, 3000);
+        });
+    </script>
+<footer>
+        <p>&copy; 2023 Route Masters.</p>
+    </footer>
+</body>
+</html>
