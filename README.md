@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 # RouteMaster
 # Public Transport Revolution - Your Smart Mobility Solution "The Route Master"
 # Team
