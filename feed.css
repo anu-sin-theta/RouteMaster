@@ -27,6 +27,11 @@ label {
     color: #333;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    section {
+        margin: 10px;
+        padding: 10px;
+    }
 
 select, textarea {
     width: 100%;
