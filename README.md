@@ -10,8 +10,11 @@ ready to support all means of transport. Offering features like --
 - Accessing the record of past journeys
 - Adding family members to existing cards with cryptographic unique IDs
 - Providing feedback, tracking bus live locations, and exploring routes.
-# [![Project Video]
- - (https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+# [Project Video]
+<video width="720" height="640" controls>
+  <source src="transport.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Key Features
 
