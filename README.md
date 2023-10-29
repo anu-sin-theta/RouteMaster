@@ -1,7 +1,17 @@
 # RouteMaster
 # Public Transport Revolution - Your Smart Mobility Solution "The Route Master"
-#By Anubhav Singh (Overall project management, Algorithm development and Intigration), Aryan Sharma (Database expert), Pawan Sisodia, Gitika Mishra (Website-Builders), Abhishek Soni(Payment and security), Prashant kumar, and Pawan Beniwal(Hardware Integration).
-Welcome to the Public Transport Revolution project, your one-stop solution for revolutionizing public transport using web and in-bus hardware. This project aims to provide a seamless user experience for commuters, offering features like checking and recharging card balance, accessing the record of past journeys, adding family members to existing cards with cryptographic unique IDs, providing feedback, tracking bus live locations, and exploring routes.
+# Team
+Anubhav Singh (Overall project management, Algorithm development and Intigration), Aryan Sharma (Database expert), Pawan Sisodia, Gitika Mishra (Website-Builders), Abhishek Soni(Payment and security), Prashant kumar, and Pawan Beniwal(Hardware Integration).
+
+# About
+Welcome to the Public Transport Revolution project, your one-stop solution for revolutionizing  Indian public transport using web and in-bus hardware. This project aims to provide a seamless user experience for commuters,
+ready to support all means of transport. Offering features like --
+- Checking and recharging card balance
+- Accessing the record of past journeys
+- Adding family members to existing cards with cryptographic unique IDs
+- Providing feedback, tracking bus live locations, and exploring routes.
+# [![Project Video]
+ - (https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
 ## Key Features
 
@@ -45,7 +55,7 @@ This project utilizes the following technologies:
 - Mongo-db
 - RFID,NFC's
 - Onboard Micro-computers for logical computations
-- 
+  
 
 ## Contributing
 
@@ -65,7 +75,7 @@ This project is open-source and is available under the [MIT License](LICENSE).
 
 If you have any questions, suggestions, or feedback, please don't hesitate to contact us:
 
-- Email: mahindrathar456@gmail.com
+- Email: mahindrathar456@gmail.com or head-over to (https://anufied.pages.dev)
 - GitHub: [RouteMasters](https://github.com/anu-sin-theta/RouteMaster/))
 
 Let's work together to create a more efficient and user-friendly public transport system for everyone!
