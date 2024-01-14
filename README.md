@@ -2,7 +2,7 @@
 # RouteMaster
 # Public Transport Revolution - Your Smart Mobility Solution "The Route Master"
 # Team
-Anubhav Singh (Overall project management, Algorithm development and Intigration), Aryan Sharma (Database expert), Pawan Sisodia, Sharad chauhan, and Anjali Dixit (Website-Builders), Abhishek Soni(Payment and security), Prashant kumar, and Pawan Beniwal(Hardware Integration).
+Anubhav Singh (Overall project management, Algorithm development, Docker-kubernates  deployment and Intigration), Aryan Sharma (Database expert), Pawan Sisodia, Sharad chauhan, and Anjali Dixit (Website-Builders), Abhishek Soni(UI/UX), Prashant kumar, and Pawan Beniwal( Marketing and Hardware Integration).
 
 # About
 Welcome to the Public Transport Revolution project, your one-stop solution for revolutionizing  Indian public transport using web and in-bus hardware. This project aims to provide a seamless user experience for commuters,
